@@ -1,0 +1,32 @@
+# данные и кеши (в репозиторий не загружаем)
+data/
+cache/
+notes/
+dev/
+*.parquet
+*.npz
+*.npy
+*.pt
+*.pkl
+
+# окружение
+.venv/
+venv/
+env/
+.python-version
+
+# python / jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# временные файлы сессии
+_tmp/

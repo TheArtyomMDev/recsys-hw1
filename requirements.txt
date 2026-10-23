@@ -1,0 +1,14 @@
+# Python 3.11. torch нужен только CPU-сборкой:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+torch==2.12.1
+matplotlib==3.11.0
+threadpoolctl==3.7.0
+pyarrow>=19
+jupyter
+nbformat
+nbconvert
+nbclient
+ipykernel
